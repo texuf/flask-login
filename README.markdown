@@ -1,5 +1,7 @@
 # Flask-Login
 
+[![build status](https://secure.travis-ci.org/maxcountryman/flask-login.png?branch=master)](https://travis-ci.org/#!/maxcountryman/flask-login)
+
 Flask-Login provides user session management for Flask. It handles the common
 tasks of logging in, logging out, and remembering your users' sessions over
 extended periods of time.
@@ -13,8 +15,24 @@ their ID.
 
 Install the extension with one of the following commands:
 
-    $ easy_install flask-login
+```sh
+$ easy_install flask-login
+```
 
 or alternatively if you have pip installed:
 
-    $ pip install flask-login
+```sh
+$ pip install flask-login
+```
+
+## Contributing
+
+We welcome contributions! If you would like to hack on Flask-Login, please
+follow these steps:
+
+1. Fork this repository
+2. Make your changes
+3. Install the requirements in `dev-requirements.txt`
+4. Submit a pull request after running `make check` (ensure it does not error!)
+
+Please give us adequate time to review your submission. Thanks!

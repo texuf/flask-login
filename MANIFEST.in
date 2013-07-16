@@ -1,1 +1,1 @@
-include tests/*.py
+include README.markdown LICENSE

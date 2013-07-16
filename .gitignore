@@ -1,1 +1,11 @@
-*.pyc
+!.gitignore
+
+tests_output/
+__pycache__/
+
+.tox
+.coverage
+
+*.py[co]
+*.egg-info
+*.swp
